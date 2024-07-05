@@ -5,6 +5,7 @@ import { StatusBar } from 'expo-status-bar'
 
 import { MEDITATION_DATA } from '@/constants/MeditationData'
 import MEDITATION_IMAGES from '@/constants/meditation-images'
+import { LinearGradient } from 'expo-linear-gradient'
 
 const NatureMeditate = () => {
   return (
@@ -31,7 +32,10 @@ const NatureMeditate = () => {
                     resizeMode='cover'
                     className='flex-1 rounded-lg justify-center'
                     >
+                        <LinearGradient colors={["transparent", "rgba(0,0,0,0.8)"]} className='flex-1 justify-center items-center'>
+
                         <Text className='text-gray-100 text-3xl font-bold text-center'>{item.title}</Text>
+                        </LinearGradient>
                     </ImageBackground>
                 </Pressable>
             )}
