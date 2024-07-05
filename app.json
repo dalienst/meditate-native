@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "meditation",
+    "name": "Meditation",
     "slug": "meditation",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,7 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/simpleMeditationLogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
